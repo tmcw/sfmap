@@ -21,8 +21,13 @@
   ];
 
   function pickLayer(map, name) {
-    for (let l of ["zoning", "redlining", "liquefaction", 'homes']) {
-      map.setPaintProperty(l, "fill-opacity", l === name ? 1 : 0);
+    for (let l of ["zoning", "redlining", "liquefaction", "homes"]) {
+      map.setPaintProperty(
+        l,
+        l === "homes" ? "circle-opacity" : "fill-opacity",
+
+        l === name ? 1 : 0
+      );
     }
   }
 
@@ -136,7 +141,7 @@
     <option value="liquefaction">Liquefaction</option>
     <option value="homes">Home prices</option>
   </select>
-  <div class='explanation'>
+  <div class="explanation">
     <Explanation layer={layerA} />
   </div>
 </div>
@@ -147,7 +152,7 @@
     <option value="liquefaction">Liquefaction</option>
     <option value="homes">Home prices</option>
   </select>
-  <div class='explanation'>
+  <div class="explanation">
     <Explanation layer={layerB} />
   </div>
 </div>
