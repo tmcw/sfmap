@@ -44,5 +44,11 @@ swatch {
   <swatch style='background: #fff' />$7,000
   <swatch style='background: #800071' />$4,700,000
 </div>
+{:else if layer == "evictions"}
+<div>
+  <a href='http://www.antievictionmappingproject.net/ellis.html'>Ellis act evictions from the Anti-Eviction Mapping Project</a>.
+  <div style='vertical-align: middle; margin-left: 10px; margin-right: 4px; display: inline-block;background:#bd0000;border-radius: 3px;width:3px;height:3px'/> 1 unit
+  <div style='vertical-align: middle; margin-left: 10px; margin-right: 4px; display: inline-block;background:#bd0000;border-radius: 12px;width:24px;height:24px'/> 102 units
+</div>
 {/if}
 </div>
