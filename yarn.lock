@@ -811,10 +811,10 @@ mapbox-gl-sync-move@^0.1.0:
   resolved "https://registry.yarnpkg.com/mapbox-gl-sync-move/-/mapbox-gl-sync-move-0.1.0.tgz#1057624a0acc823f4919f6152e80291ff89ac35a"
   integrity sha1-EFdiSgrMgj9JGfYVLoApH/iaw1o=
 
-mapbox-gl@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/mapbox-gl/-/mapbox-gl-1.9.0.tgz#53e3e13c99483f362b07a8a763f2d61d580255a5"
-  integrity sha512-PKpoiB2pPUMrqFfBJpt/oA8On3zcp0adEoDS2YIC2RA6o4EZ9Sq2NPZocb64y7ra3mLUvEb7ps1pLVlPMh6y7w==
+mapbox-gl@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/mapbox-gl/-/mapbox-gl-1.9.1.tgz#9c06310db6469064bb0245fe00d6233865ef4156"
+  integrity sha512-jpBcqh+4qpOkj8RdxRdvwKPA8gzNYyMQ8HOcXgZYuEM5nKevRDjD3cEs+rUxi1JuYj4t8bIk68Lfh7aQQC1MjQ==
   dependencies:
     "@mapbox/geojson-rewind" "^0.4.0"
     "@mapbox/geojson-types" "^1.0.2"
