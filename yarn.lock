@@ -1357,10 +1357,10 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-svelte@^3.0.0:
-  version "3.16.5"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.16.5.tgz#d7073efcbf73ce6b112a858e17c81123ce9ec472"
-  integrity sha512-iYOhJc7iczaonycuKjPgmy1lthhBoDOQo5UVhgKJRd3XYRdnYPPb0LvvJ0t7jqu5+15S0msMm06WSOKUvhEZsw==
+svelte@^3.23.2:
+  version "3.23.2"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.23.2.tgz#f3e500384261a2e77b29681ee744c3c790fbcdc3"
+  integrity sha512-hE8GeTM83YVR4GY6/6PeDEcGct4JS5aCi+IYbCAa76oaPSfuF7L85DQYULQxlTK/KPWzw3L1GRGmC3oPG/PQoA==
 
 terser@^4.6.2:
   version "4.6.7"
