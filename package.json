@@ -21,6 +21,6 @@
     "@mapbox/mapbox-gl-sync-move": "^0.3.0",
     "mapbox-gl": "^1.9.1",
     "mapbox-gl-sync-move": "^0.1.0",
-    "sirv-cli": "^0.4.4"
+    "sirv-cli": "^1.0.0"
   }
 }
